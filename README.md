@@ -43,3 +43,17 @@ Good luck and work hard!
 <img src="https://github.com/DevMountain/simulation-2/blob/master/views/wizard4.png" />
 
 <img src="https://github.com/DevMountain/simulation-2/blob/master/views/wizard5.png" />
+
+# Technical Requirements - Front-end
+
+## Auth View
+
+## Dashboard View
+
+## Wizard View
+
+# Technical Requirements - Back-end
+
+
+## Endpoints
+
