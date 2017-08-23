@@ -67,30 +67,24 @@ Good luck and work hard!
   * Example: If a user inputs information on step 1, navigates to step 2, and then navigates back to step 1: the user's input should populate in the input fields.
   * It is acceptable if user information is lost on refresh.
 * User can click cancel on any step to cancel the creation wizard and be navigated back to the Dashboard View.
+* User can navigate to the previous or next step, if available, on all steps.
+  * For example: Step 1 should not show a previous step button since it is the first step. It should however show a next step button.
 * Step 1
   * User can set a property's name and description.
-  * User can navigate to the next step.
 * Step 2
   * User can set a property's address, city, state, and zip code.
-  * User can navigate to the next step.
-  * User can navigate to the previous step.
 * Step 3
   * User can set a property's image using a URL.
   * User can see a preview of the image.
     * The image cannot break out of the preview container if the image is bigger.
     * The preview container's size should remain static.
-  * User can navigate to the next step.
-  * User can navigate to the previous step.
 * Step 4
   * User can set a property's loan and mortgage amount.
-  * User can navigate to the next step.
-  * User can navigate to the previous step.
 * Step 5
   * User can set a property's desired rent.
   * User should be able to see a recommend rent that we calculate for them.
     * The recommend rent we provide should be the result of the monthly mortage + 25%.
       * For example: The recommend rent for a monthly mortgage of $500 is $625.
-  * User can navigate to the previous step.
   * User can complete the wizard process.
     * User should be navigated back to the Dashboard View and see the newly created property in their property list.
 
