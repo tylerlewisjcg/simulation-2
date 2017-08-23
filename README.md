@@ -118,5 +118,8 @@ Good luck and work hard!
     * `id` - This is the `UserId` you are using for your database.
     * `username` - This is the `username` associated with the `UserId`.
   * On failure return a status of 500.
+* POST - `/api/auth/logout` - Destroys the session. Sends a status of 200.
+
+
 
 
