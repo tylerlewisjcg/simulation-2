@@ -59,6 +59,8 @@ Good luck and work hard!
 * User can reset an applied filter to see a list of all their properties again.
 * User can add a new property.
   * User should be navigated to the Wizard View when attempting to create a new property.
+* User can logout.
+  * User should be navigated to the Auth View.
 
 ## Wizard View
 
@@ -69,6 +71,8 @@ Good luck and work hard!
 * User can click cancel on any step to cancel the creation wizard and be navigated back to the Dashboard View.
 * User can navigate to the previous or next step, if available, on all steps.
   * For example: Step 1 should not show a previous step button since it is the first step. It should however show a next step button.
+* User can logout on any step.
+  * User should be navigated to the Auth View.
 * Step 1
   * User can set a property's name and description.
 * Step 2
@@ -90,6 +94,12 @@ Good luck and work hard!
 
 # Technical Requirements - Back-end
 
+* The back-end should be created using express.
+* Massive should be used to establish a connection to your database.
+* Express.static should be used to serve your production-ready front-end files.
+* Custom authorization middleware should be used to make sure a user is logged in before modifying properties in any way.
+  * If the middleware detects a user is not logged in, the back end should send a status of 403.
+* Express sessions should be used to keep track of logged in users.
 
 ## Endpoints
 
