@@ -1,4 +1,4 @@
-<img src="https://devmounta.in/img/logowhiteblue.png" width="250">
+<img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
 
 # Live Example
 
@@ -17,3 +17,5 @@ Good luck and work hard!
 # Color Palette & Font
 
 <img src="https://github.com/DevMountain/simulation-2/blob/master/assets/colors.png" />
+
+<b><a href="https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans">Google Font - Open Sans</a></b>
