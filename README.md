@@ -19,3 +19,27 @@ Good luck and work hard!
 <img src="https://github.com/DevMountain/simulation-2/blob/master/assets/colors.png" />
 
 <b><a href="https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans">Google Font - Open Sans</a></b>
+
+# Application Design
+
+## Auth View
+
+<img src="https://github.com/DevMountain/simulation-2/blob/master/views/auth.png" />
+
+## Dashboard View
+
+<img src="https://github.com/DevMountain/simulation-2/blob/master/views/dashboard.png" />
+
+<img src="https://github.com/DevMountain/simulation-2/blob/master/views/filter.png" />
+
+## Wizard View - Steps 1-5
+
+<img src="https://github.com/DevMountain/simulation-2/blob/master/views/wizard1.png" />
+
+<img src="https://github.com/DevMountain/simulation-2/blob/master/views/wizard2.png" />
+
+<img src="https://github.com/DevMountain/simulation-2/blob/master/views/wizard3.png" />
+
+<img src="https://github.com/DevMountain/simulation-2/blob/master/views/wizard4.png" />
+
+<img src="https://github.com/DevMountain/simulation-2/blob/master/views/wizard5.png" />
