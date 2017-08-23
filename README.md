@@ -97,7 +97,7 @@ Good luck and work hard!
 * The back-end should be created using express.
 * Massive should be used to establish a connection to your database.
 * Express.static should be used to serve your production-ready front-end files.
-* Custom authorization middleware should be used to make sure a user is logged in before modifying properties in any way.
+* Authorization middleware should be used to make sure a user is logged in before modifying properties in any way.
   * If the middleware detects a user is not logged in, the back end should send a status of 403.
 * Express sessions should be used to keep track of logged in users.
 
