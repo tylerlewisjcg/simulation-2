@@ -99,7 +99,24 @@ Good luck and work hard!
 * Express.static should be used to serve your production-ready front-end files.
 * Authorization middleware should be used to make sure a user is logged in before modifying properties in any way.
   * If the middleware detects a user is not logged in, the back end should send a status of 403.
+  * If the middleware detects a user is logged in, the back end should send the request to the final endpoint.
 * Express sessions should be used to keep track of logged in users.
 
 ## Endpoints
+
+### Authorization Endpoints
+
+* POST - `/api/auth/login` - Sets the user information on the session.
+  * On success return a status of 200 and the user object.
+  * A user object should have the following properties:
+    * `id` - This is the `UserId` you are using for your database.
+    * `username` - This is the `username` associated with the `UserId`.
+  * On failure return a status of 500.
+* POST - `/api/auth/register` - Registers a user to the database. Sets the user information on the session.
+  * On success return a status of 200 and the user object.
+  * A user object should have the following properties:
+    * `id` - This is the `UserId` you are using for your database.
+    * `username` - This is the `username` associated with the `UserId`.
+  * On failure return a status of 500.
+
 
