@@ -20,6 +20,8 @@ Good luck and work hard!
 
 <b><a href="https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans">Google Font - Open Sans</a></b>
 
+The dashboard view uses a linear gradient as its background: `linear-gradient(to bottom, #e2f3ea, #ffffff);`
+
 # Application Design
 
 ## Auth View
