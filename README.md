@@ -2,7 +2,7 @@
 
 # Live Example
 
-<a href="#">Live Example Placeholder</a>
+<a href="https://houser.devmountain.com/">houser.devmountain.com</a>
 
 # Project Summary
 
