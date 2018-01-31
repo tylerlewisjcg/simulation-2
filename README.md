@@ -125,8 +125,7 @@ The dashboard view uses a linear gradient as its background: `linear-gradient(to
 ### Properties Endpoints
 
 * POST - `/api/properties` - Creates a new property. Returns all the properties associated with the logged in user.
-* GET - `/api/properties` - Returns all properties associated with the logged in user.
+* GET - `/api/properties` - Returns all properties associated with the logged in user. Accepts an optional query that filters all properties associated with the logged in user by "desired rent". Returns all the filtered properties.
 * DELETE - `/api/properties/:id` - Deletes a property. Returns all the properties associated with the logged in user.
-* GET - `/api/properties/filter` - Filters all properties by "desired rent". Returns all the filter properties associated with the logged in user.
 
 
