@@ -9,6 +9,7 @@ class Dashboard extends Component {
         this.state = { 
             houses: []
          }
+        this.deleteHouse = this.deleteHouse.bind(this);
     }
 
     componentDidMount(){    /// this runs the get houses method once the page mounts
@@ -28,6 +29,16 @@ this.getHouses();
                 })
             } )
     }
+
+  deleteHouse(id) {
+        axios.delete(`/api/delete_house/${id}` )
+            .then( () => {
+                this.getHouses()
+            })
+    }
+
+
+
     render() { 
         return ( 
             <div>
@@ -38,8 +49,7 @@ this.getHouses();
                   city={house.city}
                   state={house.state}
                   zipcode={house.zipcode}
-                  mortgage={house.monthlymortgage}
-                  rent={house.desiredrent}
+                  deleteHouse={this.deleteHouse}
                   key={i.id}/>;
                   })}
                <Link to='/Wizard'> <button>Add New Property</button></Link>

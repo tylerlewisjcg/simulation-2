@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
 class Wizard extends Component {
   constructor(props) {
     super(props);
@@ -40,6 +41,13 @@ class Wizard extends Component {
       zipcode: e.target.value
     });
   }
+complete(){
+    console.log("button worked");
+    axios.post('/api/add', this.state)
+    .then(res => res.data);
+}
+
+
 
   render() {
     return (
@@ -55,6 +63,7 @@ class Wizard extends Component {
         <Link to="/">
           <button>Cancel</button>
         </Link>
+        <button onClick={()=> this.complete()}>Complete</button>
       </div>
     );
   }

@@ -8,13 +8,16 @@ function House(props) {
     <span>{props.img}</span>
     <span>{props.state}</span>
     <span>{props.zipcode}</span>
-    <span>{props.mortgage}</span>
-    <span>{props.rent}</span>
     
     
-    <button>Delete</button>
+    
+    <button onClick={()=> {props.deleteHouse(props.i.id)}}>Delete</button>
   </div>
   );
 }
 
 export default House;
+
+
+
+//// need to pass delete house method as props use onclick in the delete button to invoke the method
